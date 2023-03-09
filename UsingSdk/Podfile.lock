@@ -1,0 +1,35 @@
+PODS:
+  - Capacitor (4.7.0):
+    - CapacitorCordova
+  - CapacitorCordova (4.7.0)
+  - IonicLiveUpdates (0.4.0)
+  - IonicPortals (0.7.3):
+    - Capacitor (~> 4.6)
+    - IonicLiveUpdates (< 0.5.0, >= 0.1.2)
+  - UsingPortals (0.1.0):
+    - IonicPortals (~> 0.7.0)
+
+DEPENDENCIES:
+  - UsingPortals (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Capacitor
+    - CapacitorCordova
+    - IonicLiveUpdates
+    - IonicPortals
+
+EXTERNAL SOURCES:
+  UsingPortals:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Capacitor: 86c48d748b59228e0fce85b1909c18c449b35f56
+  CapacitorCordova: 49b11f2ce72487cd751aad7181606d2a710b1549
+  IonicLiveUpdates: 77d9840ec1b2b9d1d56d4595640b5813be503fe9
+  IonicPortals: e44a6f9a47e7c09a879f1e2c5d901e6629ac2024
+  UsingPortals: b63dfde9b81dcc7db9643e82337e5c8e6a63fec4
+
+PODFILE CHECKSUM: 41463f62e21d1d6585ae963b5a48f40c58c28234
+
+COCOAPODS: 1.11.2

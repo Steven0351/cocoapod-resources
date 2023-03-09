@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "capacitor-swift-pm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ionic-team/capacitor-swift-pm",
+      "state" : {
+        "revision" : "8220cf9c63368c32b35bef517196d8f2e0f3468c",
+        "version" : "4.6.3"
+      }
+    },
+    {
+      "identity" : "ionic-live-updates-releases",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ionic-team/ionic-live-updates-releases",
+      "state" : {
+        "revision" : "fe3474212b612bdbb0496f81db854530b39ba0d5",
+        "version" : "0.4.0"
+      }
+    },
+    {
+      "identity" : "ionic-portals-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ionic-team/ionic-portals-ios",
+      "state" : {
+        "revision" : "6790ed410f7b24132fd668adb9c9e9daf7593aa0",
+        "version" : "0.7.3"
+      }
+    }
+  ],
+  "version" : 2
+}

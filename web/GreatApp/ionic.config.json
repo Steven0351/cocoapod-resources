@@ -1,0 +1,7 @@
+{
+  "name": "GreatApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
