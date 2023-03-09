@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'UsingPortals'
-  s.version = '0.3.0'
+  s.version = '0.4.0'
   s.summary = 'Using Portals'
   s.homepage = 'www.example.com'
   s.license = 'Commercial'
