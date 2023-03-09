@@ -12,11 +12,12 @@ Pod::Spec.new do |s|
   s.script_phase = {
     name: 'Build great app',
     script: %(
-    cd ${SRCROOT}/../web
+    cd ${SRCROOT}/UsingPortals/web/GreatApp
     /nix/store/2azk9y3csqq9fi35djlqllcidr4c19r4-nodejs-18.7.0/bin/npm run build
     mv build great
     )
   }
+  s.preserve_paths = 'web/GreatApp'
   s.resource = 'web/GreatApp/great'
   s.swift_version = '5.4'
 end
