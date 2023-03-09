@@ -26,7 +26,7 @@ public class NativeUIView: UIView {
 
 extension Portal {
     static let greatApp = Portal(
-        name: "build",
+        name: "great",
         bundle: .framework
     )
 }
